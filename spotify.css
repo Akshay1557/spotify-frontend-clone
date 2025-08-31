@@ -1,0 +1,589 @@
+.bg{
+     display: flex;
+     flex-direction: row;
+    background-color: black;
+    height: 100vh;
+    border-radius: 10px;
+}
+.logo{
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-size: 35px;
+
+}
+.home{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    background-color:rgba(49, 47, 47, 0.974);
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 100%;
+
+}
+
+.search{
+ position: absolute;
+ left: 155px;
+ top: 20px;
+ height: 35px;
+ width: 452px;
+ padding: 7px;
+ background-color: rgba(49, 47, 47, 0.974);
+ border-radius: 30px;
+}
+.search #searched{
+    font-size: 25px;
+    margin: 5px;
+    color: rgba(207, 197, 184, 0.789);
+}
+
+.search #searched:hover{
+    color: white;
+}
+.search #browse{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 23px;
+    color:rgba(207, 197, 184, 0.837) ;
+    background: none;
+}
+.search #browse:hover{
+    color: white;
+}
+.search input{
+    font-size: 17px;
+    background-color: transparent;
+    position: absolute;
+    color:white ;
+    top: 0px;
+    left: 0px;
+    width: 352px;
+    height: 43px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+#placeholder {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+.line{
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    right: 50px;
+}
+
+.right{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    width: 560px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+.d{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px;
+    color:rgba(207, 197, 184, 0.837)  ;
+}
+.d:hover{
+    color: white;
+    font-size: 16px
+    
+}
+
+.right .line{
+    font-size: 30px;
+    position: absolute;
+    left: 260px;
+    top: 0px;
+}
+
+#download{
+    position: absolute;
+    left:290px ;
+    color: rgba(207, 197, 184, 0.837);
+}
+#download:hover{
+    color: white;
+    font-size: 17px;
+}
+#install{
+    position: absolute;
+    left: 315px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(207, 197, 184, 0.837);
+}
+#install:hover{
+    color: white;
+    font-size: 14px;
+}
+#sign{
+    position: absolute;
+    left: 400px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(207, 197, 184, 0.837);
+}
+#sign:hover{
+    color: white;
+    font-size: 14px;
+}
+#log{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    background-color: white;
+    color: black;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#log:hover{
+    font-size: 17px;
+}
+
+
+
+.sidebar{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    background-color:rgba(36, 35, 35, 0.974) ;
+    width: 100%;
+    min-width: 200px;
+    height:90vh ;
+    border-radius: 10px;
+   
+}
+.library{
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 70px;
+}
+.library p{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.library i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color:rgba(200, 169, 169, 0.837) ;
+    font-size: 20px;
+    padding: 10px;
+}
+#plus:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.277);
+    border-radius: 100%;
+    
+}
+
+
+.playlist{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    top: 50px;
+    margin-top: 20px;
+   
+}
+    
+.playlist:hover{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width:10px;
+    scrollbar-color:rgba(207, 197, 184, 0.837) transparent;
+    opacity: 80%;
+ }
+
+.playlist #playlist{
+    width: 330px;
+    height: 140px;
+    background-color: rgba(49, 47, 47, 0.974); 
+    margin-bottom: 30px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border-radius: 10px;
+    
+}
+
+#playlist #a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+#playlist #b{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+}
+#playlist #c{
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    left: 30px;
+    border-radius: 30px;
+    border-color: transparent;
+
+}
+#podcast{
+    width: 330px;
+    height: 140px;
+    background-color:rgba(49, 47, 47, 0.974);
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+#podcast #a{
+     color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+#podcast #b{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+}
+#podcast #c{
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    left: 30px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+
+.other{
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+    color:rgba(207, 197, 184, 0.837);
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+}
+.other li{
+    font-size: 11px;
+    font-family: sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#cookies a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+    position: absolute;
+    left: 34px;
+    bottom: 125px;
+    font-size: 12px;
+}
+#cookies a:hover{
+    text-decoration: underline;
+}
+
+#english{
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid wheat;
+}
+#english a{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+.main{
+    position: absolute;
+    left:372px;
+    top: 75px;
+    background-color: rgba(16, 15, 15, 0.974);
+    width:75%;
+    height: 80vh;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+.trending{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.cards{
+    display: flex;
+    margin-left: 30px;
+}
+.card{
+    width: 170px;
+    height: 230px;
+    padding: 10px; 
+    border-radius: 10px; 
+    display: inline-block; 
+}
+.card:hover{
+    background-color:rgba(45, 43, 43, 0.99);
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.song{
+    color: white;
+    font-weight: 500;
+}
+.name{
+    color: lightgray;
+    font-size: 14px;
+}
+.name:hover{
+    text-decoration: underline;
+}
+.img{
+    position: relative;
+}
+.img #play{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 17px;
+    background-color: rgb(94, 237, 94);
+    border-radius: 100%;
+    opacity: 0;
+}
+.card:hover #play{
+    opacity: 1;
+}
+
+.artist{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.artists img{
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.album{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.singles img{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.radio{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.radios img{
+     width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.chart{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.charts img{
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.best{
+    color: white;
+    font-family: sans-serif;
+    font-size: 600;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.bests img{
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+.hz{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.bottom{
+    display: flex;
+    padding-left: 30px;
+    width: 70%;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+.bottom .a{
+width:25% ;
+display: flex;
+flex-direction: column;
+}
+
+.bottom h3{
+    color: white;
+    font-family: sans-serif;
+}
+.bottom a{
+    color: rgba(176, 172, 165, 0.684);
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 5px;
+}
+.bottom a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.smedia{
+    display: flex;   
+    width: 90px;
+    height: 60px;
+    position: absolute;
+    right: 100px;
+   
+
+}
+.smedia i{
+    color: white;
+   padding: 10px;
+    margin: 10px;
+    background-color: rgb(76, 71, 71);
+    font-size: 20px;
+    border-radius: 100%;
+}
+.smedia i:hover{
+   background-color: rgb(202, 189, 189);
+}
+
+.last{
+color: rgb(113, 104, 104);
+font-family: sans-serif;
+padding-left: 30px;
+padding-bottom: 50px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+  width: 94%;
+  height: 40px;
+  background: #c180f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000; /* stays above other elements */
+}
+
+
+
+.footer #one{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    padding-bottom: 20px;
+}
+
+.footer #two{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-weight: 400;
+}
+
+.footer #three{
+    color: black;
+    padding: 15px 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+
+#three:hover{
+padding: 17px 37px;
+}
+

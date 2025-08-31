@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+    
+    
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+
+        <div class="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="what do you wan't to play?" id="placeholder">
+            <a class="line">|</a>
+            <i class="fas fa-search" id="searched"></i>
+            <i class="fa-regular fa-folder-open" id="browse"></i>
+        </div>
+        <div class="right">
+            <a class="d">Premium</a>
+            <a class="d">Support</a>
+            <a class="d">Download</a>
+            <a class="line">|</a>
+            <i class="fa-regular fa-circle-down" id="download"></i>
+            <a id="install" >Install App</a>
+            <a id="sign">Sign up</a>
+            <a id="log">Log in</a>
+
+        </div>
+        <div class="sidebar">
+            <div class="library">
+              <p>Your Library</p>
+              <i class="fa-solid fa-plus" id="plus"></i>
+            </div>
+            <div class="playlist"> 
+                <div id="playlist">
+                    <p id="a">Create your first playlist</p>
+                    <p id="b">it's easy,we'll help you</p>
+                    <button id="c">Create Playlist</button>
+                </div>
+                <div id="podcast">
+                    <p id="a">Let's find some podcast to follow</p>
+                    <p id="b">We'll kee you updated on new episodes</p>
+                    <button id="c">Browse Podcast</button>
+                </div>
+            </div>
+            
+            <div class="other">
+                <li>Legal</li>
+                <li>Safety & Privacy center </li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>About Ads</li>
+                <li>Accessibility</li>
+            </div>
+            <div id="cookies">
+                <a>Cookies</a>
+            </div>
+            <div id="english">
+                <i class="fa-solid fa-globe"></i>
+                <a>English</a>
+            </div>
+        </div>
+
+           <div class="main">
+            <h2 class="trending">Trending Songs</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (2).png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">Sahiba</p>
+                    <p class="name">Aditya Rikhari</p>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (3).png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">Saiyaara</p>
+                    <p class="name">Tanishk Bagchi,Faheem Abdullah</p>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (4.png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">JUMP</p>
+                    <p class="name">BLACKPINK</p>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (9).png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">Ehsaas</p>
+                    <p class="name">Faheem Abdullah, Duha shah</p>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot 5.png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">DAISIES</p>
+                    <p class="name">Justin Bieber</p>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                    <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot 6.png">
+                    <i class='fas fa-play' id="play"></i>
+                    </div>
+                    <p class="song">Ve Mahiya</p>
+                    <p class="name">B praak,Kausar Munir</p>
+                </div>
+            </div>
+
+            <h2 class="artist">Popular artists</h2>
+            <div class="artists">
+                <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (8).png">
+            </div>
+
+            <h2 class="album">Popular albums and singles</h2>
+            <div class="singles">
+                <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (4).png">
+            </div>
+
+            <h2 class="radio">Popular radio</h2>
+            <div class="radios">
+                <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (5).png">
+            </div>
+
+            <h2 class="chart">Featured Charts</h2>
+            <div class="charts">
+                <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (6).png".png">
+            </div>
+
+            <h2 class="best">India's Best</h2>
+            <div class="bests">
+                <img src="C:\Users\pushp\OneDrive\Desktop\web development\18 project css\Screenshots\Screenshot (7).png">
+            </div>
+
+            <hr class="hz">
+
+            <div class="bottom">
+                <div class="a">
+                    <h3>Company</h3>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the records</a>
+                </div>
+                <div class="a">
+                    <h3>Communities</h3>
+                    <a href="#">For artists</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Investor</a>
+                    <a href="#">Vendor</a>
+                </div>
+                <div class="a">
+                    <h3>Useful links</h3>
+                    <a href="#">Supports</a>
+                    <a href="#">Free Mobile app</a>
+                </div>
+                <div class="a">
+                    <h3>Spotify Plans</h3>
+                    <a href="#">Premium Individual</a>
+                    <a href="#">Premium Duo</a>
+                    <a href="#">Premium Family</a>
+                    <a href="#">Premium student</a>
+                    <a href="#">Spotify Free</a>
+                </div>
+                <div class="smedia">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                
+            </div>
+            <hr class="hz">
+            <div class="last">
+                <p>© 2025 Spotify AB</p>
+            </div>
+
+
+           </div>
+        </div> 
+
+        <div class="footer">
+            <p id="one">preview of Spotify</p>
+            <p id="two">sign up to get unlimted songs and podcsats with occasional ads. No credit card needed.</p>
+            <button id="three"> Sign up free</button>
+
+        </div>
+    </div>
+
+</body>
+</html>
